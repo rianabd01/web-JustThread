@@ -1,0 +1,111 @@
+.thread {
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+  /* height: 100vh; */
+}
+
+.card {
+  /* padding: 1rem; */
+  background: white;
+  border-bottom: 1px solid var(--broken-black);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.thread_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.thread_header .thread_header_created {
+  width: 50%;
+  text-align: end;
+  margin: auto 0;
+  font-size: 0.75rem;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.tags {
+  margin: 1rem 0;
+}
+
+.tags > button {
+  display: block;
+  height: 2rem;
+  align-content: center;
+  padding: 0 0.75rem;
+  color: var(--broken-black);
+  background-color: rgb(93, 175, 93);
+  border-radius: 1rem;
+  width: max-content;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.25s;
+  cursor: pointer;
+  border: none;
+}
+
+.tags > button:hover {
+  border-radius: 0.75rem;
+}
+
+.tags > .tag-active {
+  color: var(--broken-white);
+  background: var(--broken-black);
+}
+
+.thread_contents {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2.5rem;
+  margin-top: 0.75rem;
+}
+
+.thread_post {
+  cursor: pointer;
+}
+
+.thread_interact {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.like-button,
+.dislike-button {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  font-size: 1.25rem;
+  align-items: center;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.like-button > span,
+.dislike-button > span {
+  font-size: 1rem;
+}
+
+.thread_comment > button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  font-style: italic;
+  color: var(--broken-black);
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  /* TABLET */
+}
+
+@media screen and (min-width: 1024px) {
+  /* DESKTOP */
+}

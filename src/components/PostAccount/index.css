@@ -1,0 +1,21 @@
+.post-account {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: row;
+  width: 100%;
+  /* align-items: center; */
+}
+
+.post-account > img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 25px;
+  align-self: center;
+}
+
+.post-account > p {
+  font-weight: 600;
+  font-size: 1rem;
+  /* font-style: italic; */
+  align-self: center;
+}

@@ -1,0 +1,12 @@
+.comment {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.404);
+  margin: 1rem 0;
+  padding-bottom: 1rem;
+}
+
+.comment_interact {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}

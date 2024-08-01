@@ -1,0 +1,38 @@
+.header {
+  background: var(--broken-black);
+  height: 4rem;
+  /* position: sticky; */
+  /* margin: 0 auto; */
+}
+
+.header .container {
+  /* position: relative; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* width: 100%; */
+}
+
+.header_logo {
+  color: var(--broken-white);
+  margin: auto 0;
+}
+
+.header_leaderboard {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--broken-white);
+  align-content: center;
+}
+
+.header_leaderboard:hover {
+  color: #ff5a00;
+}
+
+@media screen and (min-width: 768px) {
+  /* TABLET */
+}
+
+@media screen and (min-width: 1024px) {
+  /* DESKTOP */
+}

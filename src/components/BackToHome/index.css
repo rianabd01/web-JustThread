@@ -1,0 +1,12 @@
+.back-to-home {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: var(--broken-black);
+  transition: all 0.25s;
+}
+
+.back-to-home:hover {
+  color: black;
+  transform: translate(-2.5px);
+}
