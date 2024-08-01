@@ -2,9 +2,6 @@ import { describe, it, expect } from 'vitest';
 import threadsReducer from './reducer';
 import { ActionType } from './action';
 
-// should return initial state when given unknown actiontype
-// should return threads when given RECEIVE_THREADS actiontype
-
 /**
  * skenario test
  *
