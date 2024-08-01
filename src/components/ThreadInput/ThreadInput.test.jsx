@@ -8,7 +8,7 @@ import ThreadInput from './index';
 /**
  * scenario testing
  *
- * ## Register component
+ * ## ThreadInput component
  *   - should handle title typing correctly
  *   - should handle body typing correctly
  *   - should handle category typing correctly
