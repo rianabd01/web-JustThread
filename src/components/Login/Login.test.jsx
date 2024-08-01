@@ -7,6 +7,15 @@ import userEvent from '@testing-library/user-event';
 import matchers from '@testing-library/jest-dom/matchers';
 import Login from './index';
 
+/**
+ * skenario testing
+ *
+ * ## Login component
+ *   - should handle email typing correctly
+ *   - should handle password typing correctly
+ *   - should call login function when login button is clicked
+ */
+
 expect.extend(matchers);
 
 describe('Login component', () => {
@@ -14,7 +23,7 @@ describe('Login component', () => {
     cleanup();
   });
 
-  it('should handle username typing correctly', async () => {
+  it('should handle email typing correctly', async () => {
     // Arrange
     render(<Login login={() => {}} />);
     const emailInput = await screen.getByPlaceholderText('Masukkan Email');
