@@ -1,9 +1,9 @@
 // eslint-disable-next-line object-curly-newline
-import { describe, it, vi, beforeEach, afterEach, expect } from 'vitest';
+import { describe, it, vi, expect } from 'vitest';
 import { showLoading, hideLoading } from 'react-redux-loading-bar';
 import api from '../../utils/api';
-import { asyncReceiveThreadDetail } from './action';
 import {
+  asyncReceiveThreadDetail,
   clearThreadDetailActionCreator,
   receiveThreadDetailActionCreator,
 } from './action';
