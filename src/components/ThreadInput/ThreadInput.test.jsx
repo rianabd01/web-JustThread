@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 // eslint-disable-next-line object-curly-newline
 import { describe, it, expect, afterEach, vi } from 'vitest';
